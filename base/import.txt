@@ -1,0 +1,2 @@
+Because the huge size of the databases we suggest to use:
+mysql --default-character-set=utf8 -u USERNAME -p PASSWORD DATABASENAME < FILENAME

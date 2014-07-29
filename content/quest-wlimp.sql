@@ -1,0 +1,13 @@
+DELETE FROM `npc_trainer` WHERE `spell`=688;
+INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (459, 1598);
+INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (460, 1599);
+INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (5667, 1470);
+INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (5765, 1485);
+INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (15283, 8344);
+INSERT INTO `creature_questender` (`id`, `quest`) VALUES (459, 1598);
+INSERT INTO `creature_questender` (`id`, `quest`) VALUES (460, 1599);
+INSERT INTO `creature_questender` (`id`, `quest`) VALUES (5667, 1470);
+INSERT INTO `creature_questender` (`id`, `quest`) VALUES (5765, 1485);
+INSERT INTO `creature_questender` (`id`, `quest`) VALUES (15283, 8344);
+UPDATE `creature` SET `position_z`=118.247 WHERE `guid`=93289;
+UPDATE `creature` SET `position_z`=117.853 WHERE `guid`=92879;
