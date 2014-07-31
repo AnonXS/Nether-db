@@ -1,0 +1,11 @@
+DELETE FROM `transports` WHERE `guid`='10';
+DELETE FROM `transports` WHERE `guid`='11';
+DELETE FROM `transports` WHERE `guid`='12';
+DELETE FROM `transports` WHERE `guid`='13';
+DELETE FROM `transports` WHERE `guid`='14';
+DELETE FROM `transports` WHERE `guid`='15';
+DELETE FROM `transports` WHERE `guid`='16';
+DELETE FROM `transports` WHERE `guid`='17';
+DELETE FROM `transports` WHERE `guid`='18';
+DELETE FROM `transports` WHERE `guid`='19';
+DELETE FROM `transports` WHERE `guid`='20';
