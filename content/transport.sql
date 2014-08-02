@@ -1,8 +1,8 @@
--- Ship, The Bravery
+/* Ship, The Bravery */
 UPDATE `transports` SET `name`='Menethil Harbor, Wetlands and Auberdine, Darkshore (\"The Bravery\")' WHERE `guid`='2';
 UPDATE `gameobject_template` SET `data0`='295' WHERE `entry`='176310';
 
--- Ship, The Lady Mehley (Crew)
+/* Ship, The Lady Mehley (Crew) */
 INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `VerifiedBuild`) VALUES ('142799', '24833', '584', '1', '1', '0', '1', '25.2165', '6.9111', '16.1459', '3.94958', '120', '0', '0', '1', '0', '0', '0', '0', '0', '0');
 INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `VerifiedBuild`) VALUES ('142800', '24843', '584', '1', '1', '0', '1', '13.2057', '-2.817', '6.09989', '3.88733', '120', '0', '0', '1', '0', '0', '0', '0', '0', '0');
 INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `VerifiedBuild`) VALUES ('142801', '24835', '584', '1', '1', '0', '1', '19.2178', '-8.20848', '12.1102', '4.81518', '120', '0', '0', '1', '0', '0', '0', '0', '0', '0');
@@ -16,10 +16,10 @@ INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`
 INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `VerifiedBuild`) VALUES ('142809', '24836', '584', '1', '1', '0', '1', '25.2165', '6.9111', '6.2102', '3.62378', '120', '0', '0', '1', '0', '0', '0', '0', '0', '0');
 																																																																																													
 
--- Naxxramas
+/* Naxxramas */
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`, `VerifiedBuild`) VALUES ('45843', '181056', '0', '1', '1', '3067.1', '-3533.4', '231.8', '0', '0', '0', '0', '0', '60', '100', '1', '8606');
 
--- Deeprun Tram
+/* Deeprun Tram */
 UPDATE `gameobject` SET `rotation2`='0' WHERE `guid` IN(18802, 18803, 18804, 18805, 18806, 18807);
 UPDATE `gameobject` SET `orientation`='1.5708' WHERE (`guid`='18806');
 UPDATE `gameobject` SET `orientation`='-1.5708' WHERE (`guid`='18807');

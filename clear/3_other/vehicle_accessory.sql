@@ -1,0 +1,1 @@
+TRUNCATE vehicle_accessory;
