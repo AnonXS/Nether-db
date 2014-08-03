@@ -1,1 +1,0 @@
-TRUNCATE vehicle_template_accessory;

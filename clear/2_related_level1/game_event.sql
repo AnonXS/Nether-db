@@ -1,0 +1,15 @@
+DELETE FROM `game_event` WHERE `eventEntry`='64';
+DELETE FROM `game_event` WHERE `eventEntry`='63';
+DELETE FROM `game_event` WHERE `eventEntry`='61';
+DELETE FROM `game_event` WHERE `eventEntry`='60';
+DELETE FROM `game_event` WHERE `eventEntry`='59';
+DELETE FROM `game_event` WHERE `eventEntry`='58';
+DELETE FROM `game_event` WHERE `eventEntry`='57';
+DELETE FROM `game_event` WHERE `eventEntry`='54';
+DELETE FROM `game_event` WHERE `eventEntry`='53';
+DELETE FROM `game_event` WHERE `eventEntry`='51';
+DELETE FROM `game_event` WHERE `eventEntry`='50';
+DELETE FROM `game_event` WHERE `eventEntry`='49';
+DELETE FROM `game_event` WHERE `eventEntry`='48';
+DELETE FROM `game_event` WHERE `eventEntry`='33';
+DELETE FROM `game_event` WHERE `eventEntry`='26';

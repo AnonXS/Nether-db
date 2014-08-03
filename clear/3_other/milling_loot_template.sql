@@ -1,1 +1,0 @@
-TRUNCATE milling_loot_template;

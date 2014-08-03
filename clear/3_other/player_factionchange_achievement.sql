@@ -1,1 +1,0 @@
-TRUNCATE player_factionchange_achievement;
