@@ -1,0 +1,1 @@
+TRUNCATE achievement_reward;

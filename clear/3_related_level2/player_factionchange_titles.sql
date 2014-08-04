@@ -1,3 +1,4 @@
+DELETE FROM `player_factionchange_titles` WHERE `alliance_id`='75' and`horde_id`='76';
 DELETE FROM `player_factionchange_titles` WHERE `alliance_id`='113' and`horde_id`='153';
 DELETE FROM `player_factionchange_titles` WHERE `alliance_id`='126' and`horde_id`='127';
 DELETE FROM `player_factionchange_titles` WHERE `alliance_id`='146' and`horde_id`='152';
