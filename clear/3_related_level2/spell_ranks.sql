@@ -9,3 +9,7 @@ WHERE first_spell_id NOT IN (
 		SELECT first_spell_id FROM spell_ranks GROUP BY first_spell_id HAVING (COUNT(*) > 1)
 	) AS A
 );
+
+/* has already ChainEntry from dbc */
+DELETE FROM spell_ranks
+WHERE first_spell_id IN (12303,14524,16253,30669);
