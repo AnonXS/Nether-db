@@ -1,0 +1,1 @@
+TRUNCATE locales_gossip_menu_option;

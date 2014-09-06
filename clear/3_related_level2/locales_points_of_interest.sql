@@ -1,0 +1,1 @@
+TRUNCATE locales_points_of_interest;

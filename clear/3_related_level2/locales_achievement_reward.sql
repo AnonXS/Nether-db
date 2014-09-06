@@ -1,0 +1,1 @@
+TRUNCATE locales_achievement_reward;

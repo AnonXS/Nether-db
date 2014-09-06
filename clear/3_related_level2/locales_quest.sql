@@ -1,0 +1,1 @@
+TRUNCATE locales_quest;
